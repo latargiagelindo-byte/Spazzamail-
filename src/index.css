@@ -61,3 +61,23 @@
   background-color: #f3f4f6;
   border-color: #d1d5db;
 }
+/* Ripristino Layout Plancia — Workspace Fisso */
+.antigravity-dashboard {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.chat-panel {
+  border-right: 1px solid #1a1a24;
+  overflow-y: auto;
+}
+
+.workspace-panel {
+  background-color: #0b0b10;
+  padding: 1.5rem;
+  overflow-y: auto;
+  border-left: 1px solid #1a1a24;
+}
